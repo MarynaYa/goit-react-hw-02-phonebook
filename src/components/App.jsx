@@ -5,7 +5,7 @@ import Section from "./Section/Section";
 import ContactForm from "./ContactForm/ContactForm";
 import ContactList from "./ContactList/ContactList";
 import ContactItem from "./ContactItem/ContactItem";
-import Filter from './Filter/Filter';
+import Filter from "./Filter/Filter";
 
 class App extends Component {
   state = {
@@ -21,7 +21,7 @@ class App extends Component {
 formSubmitHandler = data => {
   const { contacts } = this.state;
 
-  
+
   contacts.find(
     contact => contact.name.toLowerCase() === data.name.toLowerCase()
   )
