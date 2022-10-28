@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { v4 as uuid } from "uuid";
+//import { v4 as uuid } from "uuid";
 
 import Section from "./Section/Section";
 import ContactForm from "./ContactForm/ContactForm";
